@@ -5,4 +5,5 @@ function myTimer() {
     var t = d.toLocaleTimeString();
     var greeting = document.querySelector('#greeting');
     greeting.innerText = t;
+    console.log("myTimer Called");
 }
